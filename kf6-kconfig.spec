@@ -2,7 +2,7 @@
 %define devname %mklibname KF6ConfigCore -d
 %define guilibname %mklibname KF6ConfigGui
 %define qmllibname %mklibname KF6ConfigQml
-%define git 20230715
+%define git 20230722
 
 Name: kf6-kconfig
 Version: 5.240.0
