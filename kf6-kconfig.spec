@@ -2,7 +2,7 @@
 %define devname %mklibname KF6ConfigCore -d
 %define guilibname %mklibname KF6ConfigGui
 %define qmllibname %mklibname KF6ConfigQml
-%define git 20230927
+%define git 20231004
 
 Name: kf6-kconfig
 Version: 5.240.0
@@ -100,8 +100,6 @@ KConfig provides an advanced configuration system.
 %{_includedir}/KF6/KConfigGui
 %{_includedir}/KF6/KConfigQml
 %{_libdir}/cmake/KF6Config
-%{_qtdir}/mkspecs/modules/qt_KConfigCore.pri
-%{_qtdir}/mkspecs/modules/qt_KConfigGui.pri
 %{_qtdir}/doc/KF6Config.*
 
 %files -n %{libname}
