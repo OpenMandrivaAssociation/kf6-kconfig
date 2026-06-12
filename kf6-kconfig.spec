@@ -8,7 +8,7 @@
 #define git 20240217
 
 Name: kf6-kconfig
-Version: 6.26.0
+Version: 6.27.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kconfig/-/archive/master/kconfig-master.tar.bz2#/kconfig-%{git}.tar.bz2
@@ -108,6 +108,7 @@ KConfig provides an advanced configuration system.
 %{_includedir}/KF6/KConfigGui
 %{_includedir}/KF6/KConfigQml
 %{_libdir}/cmake/KF6Config
+%{_qtdir}/metatypes/*.json
 
 %files -n %{libname}
 %{_libdir}/libKF6ConfigCore.so*
